@@ -1,0 +1,679 @@
+
+/* Core Color palette */
+$primary-one-light: #E6F0F6;
+$primary-one-bright: #1A7AAF;
+$primary-one-dark: #006BA6;
+$primary-two-light: #EEEEEF;
+$primary-two-bright: #76797B;
+$primary-two-dark: #54585A;
+$secondary-one-light: #F3F8E6;
+$secondary-one-bright: #9DCA33;
+$secondary-one-dark: #84BD00;
+$secondary-two-light: #E6E9EB;
+$secondary-two-bright: #335161;
+$secondary-two-dark: #00263A;
+
+/* Core complimentary palette */
+$complementary-one:#F8F8F9;
+$complementary-two:#E6EDF3;
+$complementary-three:#CCDBE7;
+$complementary-four:#80A5C3;
+
+
+/* Generic Text Colors */
+$text-black: #000000;
+$text-white: #FFFFFF;
+$text-primary:#00263A;
+$text-secondary:#54585A;
+$text-tertiary: #BBBCBD;
+$text-link:#069ABC;
+$text-error:#FD462A;
+$text-warning:#FFB900;
+
+
+/* Generic Disabled Color */
+$general-disabled-text-color: #BBBCBD;
+$general-disabled-fill-color: #FAFAFA;
+$general-disabled-outline-color: #BBBCBD;
+
+/* Generic Input Style */
+$general-input-backgound: #FFFFFF;
+$general-input-text: #00263A;
+$general-input-placeholder-color: #BBBCBD;
+$general-input-border-color: #EEEEEE;
+
+/* Generic Input Style Reverse */
+$general-input-backgound-reverse: #000000;
+$general-input-text-reverse: #FFFFFF;
+$general-input-placeholder-color-reverse: #54585A;
+$general-input-border-color-reverse: #FFFFFF;
+
+/* Generic Icon Colors */
+$general-icon-dark: #54585A;
+$general-icon-light: #FFFFFF;
+$general-icon-neutral: #EEEEEE;
+
+/* Generic Handle and Holder Colors */
+$general-handler-off-color: #BBBCBD;
+$general-handler-on-color: $primary-one-dark;
+$general-handler-disabled-color: #E6E9EB;
+$general-holder-color: #E6E9EB;
+
+/* Generic Indicator Colors */
+$general-link-color: #069ABC;
+$general-error-color: #FD462A;
+$general-success-color: #00B16A;
+$general-info-color: #069ABC;
+$general-warning-color: #FFB900;
+$general-tag-color:#78909C;
+$general-cell-odd-color:#FFFFFF;
+$general-cell-even-color:#FAFAFA;
+$general-table-color:#336F9F;
+
+
+/* Color Combination */
+$primary-one-light-bg: $primary-one-light;
+$primary-one-light-text: $text-tertiary;
+$primary-one-light-outline: $primary-two-light;
+
+$primary-one-bright-bg: $primary-one-bright;
+$primary-one-bright-text: $text-white;
+$primary-one-bright-outline: $secondary-two-bright;
+
+$primary-one-dark-bg: $primary-one-dark;
+$primary-one-dark-text: $text-white;
+$primary-one-dark-outline: $secondary-two-bright;
+
+
+$primary-two-light-bg: $primary-two-light;
+$primary-two-light-text: $text-primary;
+$primary-two-light-outline: $secondary-two-light;
+
+$primary-two-bright-bg: $primary-two-bright;
+$primary-two-bright-text: $text-white;
+$primary-two-bright-outline: $text-black;
+
+$primary-two-dark-bg: $primary-two-dark;
+$primary-two-dark-text: $text-white;
+$primary-two-dark-outline: $text-black;
+
+$secondary-one-light-bg: $secondary-one-light;
+$secondary-one-light-text: $text-secondary;
+$secondary-one-light-outline: $secondary-two-light;
+
+$secondary-one-bright-bg: $secondary-one-bright;
+$secondary-one-bright-text: $text-white;
+$secondary-one-bright-outline: $primary-two-dark;
+
+$secondary-one-dark-bg: $secondary-one-dark;
+$secondary-one-dark-text: $text-white;
+$secondary-one-dark-outline: $primary-two-dark;
+
+$secondary-two-light-bg: $secondary-two-light;
+$secondary-two-light-text: $text-secondary;
+$secondary-two-light-outline: $primary-two-light;
+
+$secondary-two-bright-bg: $secondary-two-bright;
+$secondary-two-bright-text: $text-white;
+$secondary-two-bright-outline: $text-black;
+
+$secondary-two-dark-bg: $secondary-two-dark;
+$secondary-two-dark-text: $text-white;
+$secondary-two-dark-outline: $text-black;
+
+$primary-one-outline: $primary-one-dark;
+$primary-one-outline-text: $primary-one-dark;
+
+$primary-two-outline: $primary-two-dark;
+$primary-two-outline-text : $primary-two-dark;
+
+$secondary-one-outline: $secondary-one-dark;
+$secondary-one-outline-text: $secondary-one-dark;
+
+$secondary-two-outline: $secondary-two-dark;
+$secondary-two-outline-text: $secondary-two-dark;
+
+
+/* Header & Mega Menu Colors */
+// $header-main-bg: $secondary-two-dark;
+// $header-menu-hover: $secondary-two-bright;
+// $header-right-bg: $secondary-two-bright;
+// $header-mega-header-bg: $secondary-two-bright;
+// $header-mega-bg: $complementary-two;
+// $header-nested-bg: $primary-two-light;
+// $header-nested-hover: $complementary-three;
+// $header-leaf-bg: $complementary-two;
+// $header-light-text: $text-white;
+// $header-dark-text: $text-primary;
+
+/* Header & Mega Menu Colors */
+$header-main-bg: $secondary-two-dark;
+$header-menu-hover: $secondary-two-bright;
+$header-right-bg: $secondary-two-dark;
+$header-mega-header-bg: $secondary-two-bright;
+$header-mega-bg: $secondary-two-bright;
+$header-mega-content-parent-text:$text-white;
+$header-mega-content-child-text:$primary-two-light;
+$header-nested-bg: $secondary-two-bright;
+$header-nested-content-text:$text-white;
+$header-nested-hover: #1a3c4e;
+$header-leaf-bg: #1a3c4e;
+$header-leaf-content-text:$text-white;
+$header-leaf-hover:$secondary-two-dark;
+$header-light-text: $text-white;
+$header-dark-text: $text-primary;
+$header-link-text:#FFF1D2;//$gui-gold
+
+/* Generic GUI Colors */
+$gui-blue: #069ABC;
+$gui-green: #00B16A;
+$gui-slate: #78909C;
+$gui-mango: #FFB900;
+$gui-gold: #FFF1D2;
+$gui-snow: #FAFAFA;
+$gui-white: #FFFFFE;
+$gui-nodata: #EEEEEE;
+$gui-errorred: #FD462A;
+
+
+/* Chart and Graph colors */
+$cg-navy-10: #E6EDF3;
+$cg-navy-20: #CCDBE7;
+$cg-navy-30: #B3C9DB;
+$cg-navy-50: #80A5C3;
+$cg-navy-80: #336F9F;
+$cg-navy-90: #1A5D93;
+$cg-navy: #004B87;
+$cg-aqua-10: #ECF9F7;
+$cg-aqua-50: #A0E0D6;
+$cg-aqua-70: #79D4C5;
+$cg-aqua: #40C1AC;
+$cg-crimson-10: #FBEAE8;
+$cg-crimson-30: #F4BFBB;
+$cg-crimson-60: #E97F77;
+$cg-crimson-80: #E15449;
+$cg-crimson-90: #DE3E33;
+
+
+/* Font Specification */
+// Font Family
+// $font-stack: Arial, sans-serif;
+$font-stack: 'Roboto', Arial, sans-serif;
+
+/* roboto-300 - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/roboto/roboto-v18-latin-300.eot'); /* IE9 Compat Modes */
+  src: local('Roboto Light'), local('Roboto-Light'),
+       url('../fonts/roboto/roboto-v18-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/roboto/roboto-v18-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/roboto/roboto-v18-latin-300.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/roboto/roboto-v18-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/roboto/roboto-v18-latin-300.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+/* roboto-regular - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto/roboto-v18-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Roboto'), local('Roboto-Regular'),
+       url('../fonts/roboto/roboto-v18-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/roboto/roboto-v18-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/roboto/roboto-v18-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/roboto/roboto-v18-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/roboto/roboto-v18-latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+/* roboto-500 - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/roboto/roboto-v18-latin-500.eot'); /* IE9 Compat Modes */
+  src: local('Roboto Medium'), local('Roboto-Medium'),
+       url('../fonts/roboto/roboto-v18-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/roboto/roboto-v18-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/roboto/roboto-v18-latin-500.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/roboto/roboto-v18-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/roboto/roboto-v18-latin-500.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+
+/* Font Common Properties */
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+
+/* Functions */
+/* General Shadows */
+@mixin general-shadow(){
+  box-shadow: 1px 0 1px 0 rgba(118, 121, 123, 0.16);
+}
+
+@mixin general-shadow-around(){
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* General Inner Shadows */
+@mixin general-inner-shadow(){
+  box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* Overal Boarder Radius */
+@mixin general-boarder-radius(){
+  border-radius: 2px;
+}
+
+/* General Transition */
+@mixin general-transition($property){
+transition: $property 0.5s ease;
+};
+
+/* General Overlay */
+@mixin general-overlay(){
+  background-color: rgba(0,0,0,0.5);
+}
+
+
+/* Text styles */
+@mixin text-property($font-size,$font-weight,$color,$line-height){
+  font-family: $font-stack;
+  font-size: $font-size;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  letter-spacing: normal;
+  color: $color;
+  margin: 0;
+}
+
+@mixin comp-text-property($font-size,$font-weight,$line-height){
+  font-family: $font-stack;
+  font-size: $font-size;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  letter-spacing: normal;
+  margin: 0;
+}
+
+/* Focus */
+@mixin focus-general(){
+  border-color:$general-info-color;
+  box-shadow:0 0 2px 0 $general-info-color;
+}
+
+@mixin focus-error(){
+  border-color:$general-error-color;
+  box-shadow:0 0 2px 0 $general-error-color;
+}
+
+@mixin focus-success(){
+  border-color:$general-success-color;
+  box-shadow:0 0 2px 0 $general-success-color;
+}
+
+
+@mixin general-case-event-comp(){
+  text-transform:uppercase;
+}
+
+@mixin general-case-comp(){
+  text-transform:capitalize;
+}
+
+@mixin general-border-width-style(){
+  border-style: solid;
+  border-width: 1px;
+}
+
+/* Creates component with filled color and specified text color */
+@mixin create-fill-component($background-color,$text-color){
+  background-color: $background-color;
+  color: $text-color;
+}
+
+/* Creates component with outlined component with specified text color and border */
+@mixin create-outline-component($background-color,$text-color,$border-color){
+  background-color: $background-color;
+  color: $text-color;
+  border-color: $border-color;
+}
+
+/* Creates component with outlined component with specified background and border */
+@mixin create-notext-component($background-color,$border-color){
+  background-color: $background-color;
+  border-color: $border-color;
+}
+
+
+
+/* Text styles */
+/* Baseline Text Styles */
+.vs-baseline-light-black {
+   @include text-property(12px,$font-weight-light,$text-black,2);
+}
+
+.vs-baseline-light-primary {
+   @include text-property(12px,$font-weight-light,$text-primary,2);
+}
+
+.vs-baseline-light-secondary {
+    @include text-property(12px,$font-weight-light,$text-secondary,2);
+
+}
+.vs-baseline-light-tertiary {
+   @include text-property(12px,$font-weight-light,$text-tertiary,2);
+}
+
+.vs-baseline-light-white {
+   @include text-property(12px,$font-weight-light,$text-white,2);
+}
+.vs-baseline-medium-black {
+   @include text-property(12px,$font-weight-medium,$text-black,2);
+}
+
+.vs-baseline-medium-primary {
+   @include text-property(12px,$font-weight-medium,$text-primary,2);
+}
+
+.vs-baseline-medium-secondary {
+    @include text-property(12px,$font-weight-medium,$text-secondary,2);
+
+}
+.vs-baseline-medium-tertiary {
+   @include text-property(12px,$font-weight-medium,$text-tertiary,2);
+}
+
+.vs-baseline-medium-white {
+   @include text-property(12px,$font-weight-medium,$text-white,2);
+}
+
+.vs-baseline-regular-black {
+   @include text-property(12px,$font-weight-regular,$text-black,2);
+}
+
+.vs-baseline-regular-primary {
+   @include text-property(12px,$font-weight-regular,$text-primary,2);
+}
+
+.vs-baseline-regular-secondary {
+    @include text-property(12px,$font-weight-regular,$text-secondary,2);
+
+}
+.vs-baseline-regular-tertiary {
+   @include text-property(12px,$font-weight-regular,$text-tertiary,2);
+}
+
+.vs-baseline-regular-white {
+   @include text-property(12px,$font-weight-regular,$text-white,2);
+}
+
+/* Body Text Styles*/
+
+.vs-body-light-black {
+   @include text-property(16px,$font-weight-light,$text-black,1.5);
+}
+
+.vs-body-light-primary {
+   @include text-property(16px,$font-weight-light,$text-primary,1.5);
+}
+
+.vs-body-light-secondary {
+    @include text-property(16px,$font-weight-light,$text-secondary,1.5);
+
+}
+.vs-body-light-tertiary {
+   @include text-property(16px,$font-weight-light,$text-tertiary,1.5);
+}
+
+.vs-body-light-white {
+   @include text-property(16px,$font-weight-light,$text-white,1.5);
+}
+.vs-body-medium-black {
+   @include text-property(16px,$font-weight-medium,$text-black,1.5);
+}
+
+.vs-body-medium-primary {
+   @include text-property(16px,$font-weight-medium,$text-primary,1.5);
+}
+
+.vs-body-medium-secondary {
+    @include text-property(16px,$font-weight-medium,$text-secondary,1.5);
+
+}
+.vs-body-medium-tertiary {
+   @include text-property(16px,$font-weight-medium,$text-tertiary,1.5);
+}
+
+.vs-body-medium-white {
+   @include text-property(16px,$font-weight-medium,$text-white,1.5);
+}
+
+.vs-body-regular-black {
+   @include text-property(16px,$font-weight-regular,$text-black,1.5);
+}
+
+.vs-body-regular-primary {
+   @include text-property(16px,$font-weight-regular,$text-primary,1.5);
+}
+
+.vs-body-regular-secondary {
+    @include text-property(16px,$font-weight-regular,$text-secondary,1.5);
+
+}
+.vs-body-regular-tertiary {
+   @include text-property(16px,$font-weight-regular,$text-tertiary,1.5);
+}
+
+.vs-body-regular-white {
+   @include text-property(16px,$font-weight-regular,$text-white,1.5);
+}
+
+/* H4 Text Styles*/
+
+.vs-h4-light-black {
+   @include text-property(16px,$font-weight-light,$text-black,1.5);
+}
+
+.vs-h4-light-primary {
+   @include text-property(16px,$font-weight-light,$text-primary,1.5);
+}
+
+.vs-h4-light-secondary {
+    @include text-property(16px,$font-weight-light,$text-secondary,1.5);
+
+}
+.vs-h4-light-tertiary {
+   @include text-property(16px,$font-weight-light,$text-tertiary,1.5);
+}
+
+.vs-h4-light-white {
+   @include text-property(16px,$font-weight-light,$text-white,1.5);
+}
+
+.vs-h4-regular-black {
+   @include text-property(16px,$font-weight-regular,$text-black,1.5);
+}
+
+.vs-h4-regular-primary {
+   @include text-property(16px,$font-weight-regular,$text-primary,1.5);
+}
+
+.vs-h4-regular-secondary {
+  @include text-property(16px,$font-weight-regular,$text-secondary,1.5);
+
+}
+.vs-h4-regular-tertiary {
+   @include text-property(16px,$font-weight-regular,$text-tertiary,1.5);
+}
+
+.vs-h4-regular-white {
+   @include text-property(16px,$font-weight-regular,$text-white,1.5);
+}
+
+/* H3 Text Styles*/
+
+.vs-h3-light-black {
+   @include text-property(23px,$font-weight-light,$text-black,1.39);
+}
+
+.vs-h3-light-primary {
+   @include text-property(23px,$font-weight-light,$text-primary,1.39);
+}
+
+.vs-h3-light-secondary {
+    @include text-property(23px,$font-weight-light,$text-secondary,1.39);
+
+}
+.vs-h3-light-tertiary {
+   @include text-property(23px,$font-weight-light,$text-tertiary,1.39);
+}
+
+.vs-h3-light-white {
+   @include text-property(23px,$font-weight-light,$text-white,1.39);
+}
+
+.vs-h3-regular-black {
+   @include text-property(23px,$font-weight-regular,$text-black,1.39);
+}
+
+.vs-h3-regular-primary {
+   @include text-property(23px,$font-weight-regular,$text-primary,1.39);
+}
+
+.vs-h3-regular-secondary {
+  @include text-property(23px,$font-weight-regular,$text-secondary,1.39);
+
+}
+.vs-h3-regular-tertiary {
+   @include text-property(23px,$font-weight-regular,$text-tertiary,1.39);
+}
+
+.vs-h3-regular-white {
+   @include text-property(23px,$font-weight-regular,$text-white,1.39);
+}
+
+/* H2 Text Styles*/
+
+.vs-h2-light-black {
+   @include text-property(32px,$font-weight-light,$text-black,1.5);
+}
+
+.vs-h2-light-primary {
+   @include text-property(32px,$font-weight-light,$text-primary,1.5);
+}
+
+.vs-h2-light-secondary {
+   @include text-property(32px,$font-weight-light,$text-secondary,1.5);
+
+}
+.vs-h2-light-tertiary {
+   @include text-property(32px,$font-weight-light,$text-tertiary,1.5);
+}
+
+.vs-h2-light-white {
+   @include text-property(32px,$font-weight-light,$text-white,1.5);
+}
+
+.vs-h2-regular-black {
+   @include text-property(32px,$font-weight-regular,$text-black,1.5);
+}
+
+.vs-h2-regular-primary {
+   @include text-property(32px,$font-weight-regular,$text-primary,1.5);
+}
+
+.vs-h2-regular-secondary {
+   @include text-property(32px,$font-weight-regular,$text-secondary,1.5);
+
+}
+.vs-h2-regular-tertiary {
+   @include text-property(32px,$font-weight-regular,$text-tertiary,1.5);
+}
+
+.vs-h2-regular-white {
+   @include text-property(32px,$font-weight-regular,$text-white,1.5);
+}
+
+/* H1 Text Styles*/
+
+.vs-h1-light-black {
+   @include text-property(45px,$font-weight-light,$text-black,1.07);
+}
+
+.vs-h1-light-primary {
+   @include text-property(45px,$font-weight-light,$text-primary,1.07);
+}
+
+.vs-h1-light-secondary {
+    @include text-property(45px,$font-weight-light,$text-secondary,1.07);
+
+}
+.vs-h1-light-tertiary {
+   @include text-property(45px,$font-weight-light,$text-tertiary,1.07);
+}
+
+.vs-h1-light-white {
+   @include text-property(45px,$font-weight-light,$text-white,1.07);
+}
+
+.vs-h1-regular-black {
+   @include text-property(45px,$font-weight-regular,$text-black,1.07);
+}
+
+.vs-h1-regular-primary {
+   @include text-property(45px,$font-weight-regular,$text-primary,1.07);
+}
+
+.vs-h1-regular-secondary {
+    @include text-property(45px,$font-weight-regular,$text-secondary,1.07);
+
+}
+.vs-h1-regular-tertiary {
+   @include text-property(45px,$font-weight-regular,$text-tertiary,1.07);
+}
+
+.vs-h1-regular-white {
+   @include text-property(45px,$font-weight-regular,$text-white,1.07);
+}
+
+.vs-alert-text {
+  height: 24px;
+  @include text-property(14px,$font-weight-regular,$text-error,1.71);
+  margin: 0;
+}
+
+.vs-caption-text {
+  height: 24px;
+  @include text-property(12px,$font-weight-medium,$text-tertiary,2);
+  margin: 0;
+}
+
+.vs-caption-uppercase-text {
+  height: 16px;
+  @include text-property(12px,$font-weight-medium,$secondary-two-dark,1.33);
+  letter-spacing: 2px;
+  text-transform:uppercase;
+  margin: 0;
+}
+
+
+
+/*Rafi code Starts here*/
+@mixin custom-margin($top,$right,$bottom,$left){
+  margin: $top $right $bottom $left;
+}
+@mixin custom-padding($top,$right,$bottom,$left){
+   padding: $top $right $bottom $left;
+ }
+ @mixin font-family($fontFamily) {
+   font-family: $fontFamily;
+ }
+ @mixin custom-border-width-style($top,$right,$bottom,$left,$style){
+   border-style: $style;
+   border-width: $top $right $bottom $left,;
+ }
